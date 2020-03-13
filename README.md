@@ -1,4 +1,4 @@
 # stalk-imvu
-Herramienta de stalkeo en IMVU
+Herramienta de stalkeo en IMVU usando la API
 
-Herramienta de stalkeo en imvu, requiere de BD Mongo, cookie, e ID de usuario
+Requiere de BD Mongo, cookie, e ID de usuario
