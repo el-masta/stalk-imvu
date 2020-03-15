@@ -3,7 +3,7 @@ Herramienta de stalkeo en IMVU usando la API
 
 El stalkeo consiste en revisar automáticamente las 40 últimas publicaciones de los seguidores de un usuario, y guarda un listado con las publicaciones en las que el usuario dio like, realizó un comentario, o aparece etiquetado.
 
-Requiere de BD Mongo, y el ID de usuario a stalkear
+Requiere de MongoDB, y el ID de usuario a stalkear
 Para uso de la API se requieren los datos de cookie en la sesión
 
 
