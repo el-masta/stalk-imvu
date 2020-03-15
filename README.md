@@ -8,7 +8,7 @@ Para uso de la API se requieren los datos de cookie en la sesión
 
 
 
-El stalkeo se realiza en 3 fases principales:
+El stalkeo se realiza en 4 fases principales:
 ## 1.- Recopilación de los seguidores del usuario
 Es un proceso rápido y sencillo, guarda el ID de los seguidores en una colección de MongoDB
 
@@ -20,3 +20,6 @@ De manera asíncrona llama a 3 funciones para verificar la presencia de las inte
 Ésta fase es muy intensiva con la API de IMVU, ya que realiza 3 llamadas por cada post.
 
 Si el usuario tiene 1,000 seguidores (el código está limitado a 1,500 seguidores), se recuperarán 40,000 posts (o tal vez menos), por lo que en total se realizarán poco más de 120,000 consultas a la API
+
+## 4.- Creación de lista
+Por último se guarda un listado en texto plano de las ligas de las publicaciones donde el usuario realizó interacciones, y el tipo de interacción en cada caso.
